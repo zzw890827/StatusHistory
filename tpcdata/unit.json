@@ -3,54 +3,54 @@
       "id": 1,
       "pid": 0,
       "status": 1,
-      "name": "系统管理"
+      "name": "RCG1"
     },
     {
       "id": 2,
       "pid": 0,
       "status": 1,
-      "name": "字典管理"
+      "name": "RCG2"
     },
     {
       "id": 20,
       "pid": 1,
       "status": 1,
-      "name": "新增系统"
+      "name": "RCG3"
     },
     {
       "id": 21,
       "pid": 1,
       "status": 1,
-      "name": "编辑系统"
+      "name": "RCG4"
     },
     {
       "id": 22,
       "pid": 1,
       "status": 1,
-      "name": "删除系统"
+      "name": "RCG5"
     },
     {
       "id": 33,
       "pid": 2,
       "status": 1,
-      "name": "系统环境"
+      "name": "RCG6"
     },
     {
       "id": 333,
       "pid": 33,
       "status": 1,
-      "name": "新增环境"
+      "name": "RCG7"
     },
     {
       "id": 3333,
       "pid": 33,
       "status": 1,
-      "name": "编辑环境"
+      "name": "RCG8"
     },
     {
       "id": 233332,
       "pid": 33,
       "status": 0,
-      "name": "删除环境"
+      "name": "RCG9"
     }
 ]

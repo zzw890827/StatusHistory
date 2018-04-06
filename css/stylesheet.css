@@ -1,0 +1,7 @@
+body {
+    padding-top: 50px;
+}
+
+#unit_list {
+    overflow-y: auto;
+}

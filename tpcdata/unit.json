@@ -2,55 +2,55 @@
     {
       "id": 1,
       "pid": 0,
-      "status": 1,
+      "status": "00-00",
       "name": "RCG1"
     },
     {
       "id": 2,
       "pid": 0,
-      "status": 1,
+      "status": "00-01",
       "name": "RCG2"
     },
     {
       "id": 20,
       "pid": 1,
-      "status": 1,
+      "status": "00-02",
       "name": "RCG3"
     },
     {
       "id": 21,
       "pid": 1,
-      "status": 1,
+      "status": "00-03",
       "name": "RCG4"
     },
     {
       "id": 22,
       "pid": 1,
-      "status": 1,
+      "status": "00-04",
       "name": "RCG5"
     },
     {
       "id": 33,
       "pid": 2,
-      "status": 1,
+      "status": "00-05",
       "name": "RCG6"
     },
     {
       "id": 333,
       "pid": 33,
-      "status": 1,
+      "status": "00-06",
       "name": "RCG7"
     },
     {
       "id": 3333,
       "pid": 33,
-      "status": 1,
+      "status": "00-07",
       "name": "RCG8"
     },
     {
       "id": 233332,
       "pid": 33,
-      "status": 0,
+      "status": "00-08",
       "name": "RCG9"
     }
 ]

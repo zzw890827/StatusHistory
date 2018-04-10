@@ -1,0 +1,142 @@
+[
+  {
+    "id": "00001",
+    "name": "RCG1",
+    "address": "00-00",
+    "date": "2017/08/04",
+    "onoff": "on",
+    "mode": "Cool",
+    "temp": "52",
+    "fan": "low"
+  },
+  {
+    "id": "00002",
+    "name": "RCG2",
+    "address": "00-01",
+    "date": "2017/08/04",
+    "onoff": "on",
+    "mode": "Cool",
+    "temp": "52",
+    "fan": "low"
+  },
+  {
+    "id": "00003",
+    "name": "RCG3",
+    "address": "00-02",
+    "date": "2017/08/04",
+    "onoff": "on",
+    "mode": "Cool",
+    "temp": "52",
+    "fan": "low"
+  },
+  {
+    "id": "00004",
+    "name": "RCG1",
+    "address": "00-00",
+    "date": "2017/08/04",
+    "onoff": "on",
+    "mode": "Cool",
+    "temp": "52",
+    "fan": "low"
+  },
+  {
+    "id": "00005",
+    "name": "RCG1",
+    "address": "00-00",
+    "date": "2017/08/04",
+    "onoff": "on",
+    "mode": "Cool",
+    "temp": "52",
+    "fan": "low"
+  },
+  {
+    "id": "00006",
+    "name": "RCG1",
+    "address": "00-00",
+    "date": "2017/08/04",
+    "onoff": "on",
+    "mode": "Cool",
+    "temp": "52",
+    "fan": "low"
+  },
+  {
+    "id": "00007",
+    "name": "RCG1",
+    "address": "00-00",
+    "date": "2017/08/04",
+    "onoff": "on",
+    "mode": "Cool",
+    "temp": "52",
+    "fan": "low"
+  },
+  {
+    "id": "00008",
+    "name": "RCG1",
+    "address": "00-00",
+    "date": "2017/08/04",
+    "onoff": "on",
+    "mode": "Cool",
+    "temp": "52",
+    "fan": "low"
+  },
+  {
+    "id": "00009",
+    "name": "RCG2",
+    "address": "00-01",
+    "date": "2017/08/04",
+    "onoff": "on",
+    "mode": "Cool",
+    "temp": "52",
+    "fan": "low"
+  },
+  {
+    "id": "00010",
+    "name": "RCG3",
+    "address": "00-02",
+    "date": "2017/08/04",
+    "onoff": "on",
+    "mode": "Cool",
+    "temp": "52",
+    "fan": "low"
+  },
+  {
+    "id": "00011",
+    "name": "RCG1",
+    "address": "00-00",
+    "date": "2017/08/04",
+    "onoff": "on",
+    "mode": "Cool",
+    "temp": "52",
+    "fan": "low"
+  },
+  {
+    "id": "00012",
+    "name": "RCG1",
+    "address": "00-00",
+    "date": "2017/08/04",
+    "onoff": "on",
+    "mode": "Cool",
+    "temp": "52",
+    "fan": "low"
+  },
+  {
+    "id": "00013",
+    "name": "RCG1",
+    "address": "00-00",
+    "date": "2017/08/04",
+    "onoff": "on",
+    "mode": "Cool",
+    "temp": "52",
+    "fan": "low"
+  },
+  {
+    "id": "00014",
+    "name": "RCG1",
+    "address": "00-00",
+    "date": "2017/08/04",
+    "onoff": "on",
+    "mode": "Cool",
+    "temp": "52",
+    "fan": "low"
+  }
+]

@@ -5,3 +5,7 @@ body {
 #unit_list {
     overflow-y: auto;
 }
+
+.w70 {
+    width: 150px !important;
+}

@@ -21,8 +21,8 @@
     <script src="js/bootstrap-table.js"></script>
     <script src="js/bootstrap-table-treegrid.js"></script>
     <script src="js/jquery.treegrid.js"></script>
-
 </head>
+
 <body>
 <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
     <div class="container-fluid">
@@ -35,9 +35,72 @@
                 <span class="icon-bar"></span>
             </button>
             <a class="navbar-brand">Integration Controller</a>
+            <a>
+                <button class="navbar-btn btn-success btn-sm"
+                        disabled="disabled">Status: Normal
+                </button>
+            </a>
         </div>
         <div class="collapse navbar-collapse" id="navbar-s421">
+            <ul class="nav navbar-nav navbar-left">
+                <li><a href="#">
+                    <span class="glyphicon glyphicon-home">Monitor</span>
+                </a></li>
+                <li><a href="#">
+                    <span class="glyphicon glyphicon-wrench">Operation</span>
+                </a></li>
+                <li><a href="#">
+                    <span class="glyphicon glyphicon-calendar">Schedule</span>
+                </a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                        <span class="glyphicon glyphicon-cog">Options</span>
+                        <b class="caret"></b>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Auto Off Timer</a></li>
+                        <li><a href="#">Auto Recover Timer</a></li>
+                        <li><a href="#">Outer Low Noise</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#">Connection Setting</a></li>
+                        <li><a href="#">Network Setting</a></li>
+                        <li><a href="#">Mail Setting</a></li>
+                        <li><a href="#">Group Setting</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#">Time Setting</a></li>
+                        <li><a href="#">Time Zone Setting</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                        <span class="glyphicon glyphicon-time">History</span>
+                        <b class="caret"></b>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Error History</a></li>
+                        <li><a href="#">Status History</a></li>
+                        <li><a href="#">Operation History</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#">TPC Information</a></li>
+                    </ul>
+                </li>
+            </ul>
             <ul class="nav navbar-nav navbar-right">
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                        <span class="glyphicon glyphicon-font">English</span>
+                        <b class="caret"></b>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">日本語</a></li>
+                        <li><a href="#">简体中文</a></li>
+                        <li><a href="#">繁体中文</a></li>
+                        <li><a href="#">한국어</a></li>
+                        <li><a href="#">Français</a></li>
+                        <li><a href="#">Русский</a></li>
+                        <li><a href="#">Português</a></li>
+                    </ul>
+                </li>
                 <li><a href="#">
                     <span class="glyphicon glyphicon-user">Installer</span>
                 </a></li>
@@ -71,188 +134,19 @@
             </div>
         </div>
         <main role="main" class="col-md-9">
-            <div class="table-responsive">
-                <table class="table table-striped table-sm"
-                       data-toggle="table"
-                       data-resizable="true"
-                       data-page-size="5">
-                    <thead>
-                    <tr>
-                        <th>#</th>
-                        <th data-field="name" data-sortable="true">Name</th>
-                        <th data-field="address" data-sortable="true">Ref-In.
-                        </th>
-                        <th data-field="date" data-sortable="true">Date</th>
-                        <th>On/Off</th>
-                        <th>Mode</th>
-                        <th>Temp.</th>
-                        <th>Fan</th>
-                    </tr>
-                    </thead>
-                    <tbody>
-                    <tr>
-                        <td>00001</td>
-                        <td>RCG1</td>
-                        <td>00-00</td>
-                        <td>2017/08/04</td>
-                        <td>On</td>
-                        <td>Cool</td>
-                        <td>26℃</td>
-                        <td>Low</td>
-                    </tr>
-                    <tr>
-                        <td>00002</td>
-                        <td>RCG2</td>
-                        <td>00-01</td>
-                        <td>2017/08/04</td>
-                        <td>On</td>
-                        <td>Cool</td>
-                        <td>26℃</td>
-                        <td>Low</td>
-                    </tr>
-                    <tr>
-                        <td>00003</td>
-                        <td>RCG3</td>
-                        <td>00-02</td>
-                        <td>2017/08/04</td>
-                        <td>On</td>
-                        <td>Cool</td>
-                        <td>26℃</td>
-                        <td>Low</td>
-                    </tr>
-                    <tr>
-                        <td>00004</td>
-                        <td>RCG4</td>
-                        <td>00-03</td>
-                        <td>2017/08/04</td>
-                        <td>On</td>
-                        <td>Cool</td>
-                        <td>26℃</td>
-                        <td>Low</td>
-                    </tr>
-                    <tr>
-                        <td>00005</td>
-                        <td>RCG5</td>
-                        <td>10-00</td>
-                        <td>2017/08/04</td>
-                        <td>On</td>
-                        <td>Cool</td>
-                        <td>26℃</td>
-                        <td>Low</td>
-                    </tr>
-                    <tr>
-                        <td>00006</td>
-                        <td>RCG6</td>
-                        <td>03-00</td>
-                        <td>2017/08/04</td>
-                        <td>On</td>
-                        <td>Cool</td>
-                        <td>26℃</td>
-                        <td>Low</td>
-                    </tr>
-                    <tr>
-                        <td>00007</td>
-                        <td>RCG7</td>
-                        <td>10-10</td>
-                        <td>2017/08/04</td>
-                        <td>On</td>
-                        <td>Cool</td>
-                        <td>26℃</td>
-                        <td>Low</td>
-                    </tr>
-                    <tr>
-                        <td>00008</td>
-                        <td>RCG8</td>
-                        <td>02-02</td>
-                        <td>2017/08/04</td>
-                        <td>On</td>
-                        <td>Cool</td>
-                        <td>26℃</td>
-                        <td>Low</td>
-                    </tr>
-                    <tr>
-                        <td>00009</td>
-                        <td>RCG9</td>
-                        <td>03-01</td>
-                        <td>2017/08/04</td>
-                        <td>On</td>
-                        <td>Cool</td>
-                        <td>26℃</td>
-                        <td>Low</td>
-                    </tr>
-                    <tr>
-                        <td>00010</td>
-                        <td>RCG1</td>
-                        <td>00-00</td>
-                        <td>2017/08/04</td>
-                        <td>On</td>
-                        <td>Cool</td>
-                        <td>26℃</td>
-                        <td>Low</td>
-                    </tr>
-                    <tr>
-                        <td>00011</td>
-                        <td>RCG1</td>
-                        <td>00-00</td>
-                        <td>2017/08/04</td>
-                        <td>On</td>
-                        <td>Cool</td>
-                        <td>26℃</td>
-                        <td>Low</td>
-                    </tr>
-                    <tr>
-                        <td>00012</td>
-                        <td>RCG1</td>
-                        <td>00-00</td>
-                        <td>2017/08/04</td>
-                        <td>On</td>
-                        <td>Cool</td>
-                        <td>26℃</td>
-                        <td>Low</td>
-                    </tr>
-                    <tr>
-                        <td>00013</td>
-                        <td>RCG1</td>
-                        <td>00-00</td>
-                        <td>2017/08/04</td>
-                        <td>On</td>
-                        <td>Cool</td>
-                        <td>26℃</td>
-                        <td>Low</td>
-                    </tr>
-                    <tr>
-                        <td>00014</td>
-                        <td>RCG1</td>
-                        <td>00-00</td>
-                        <td>2017/08/04</td>
-                        <td>On</td>
-                        <td>Cool</td>
-                        <td>26℃</td>
-                        <td>Low</td>
-                    </tr>
-                    <tr>
-                        <td>00015</td>
-                        <td>RCG1</td>
-                        <td>00-00</td>
-                        <td>2017/08/04</td>
-                        <td>On</td>
-                        <td>Cool</td>
-                        <td>26℃</td>
-                        <td>Low</td>
-                    </tr>
-                    <tr>
-                        <td>00016</td>
-                        <td>RCG1</td>
-                        <td>00-00</td>
-                        <td>2017/08/04</td>
-                        <td>On</td>
-                        <td>Cool</td>
-                        <td>26℃</td>
-                        <td>Low</td>
-                    </tr>
-                    </tbody>
-                </table>
+            <div id="toolbar">
+                <div class="form-inline" role="form">
+                    <div class="form-group">
+                        <input name="offset" class="form-control w70"
+                               type="text" placeholder="Beginning Date">
+                    </div>
+                    <div class="form-group">
+                        <input name="offset" class="form-control w70"
+                               type="text" placeholder="Closing Date">
+                    </div>
+                </div>
             </div>
+            <table id="hist_list"></table>
         </main>
     </div>
 </div>
@@ -261,12 +155,11 @@
 
 <script type="text/javascript">
     $unit_list = $('#unit_list');
+    $hist_list = $('#hist_list');
     $(function () {
         $unit_list.bootstrapTable({
             url: 'tpcdata/unit.json',
-            //height: $(window).height(),
             striped: true,
-            sidePagination: 'server',
             idField: 'id',
             columns: [
                 {
@@ -295,10 +188,61 @@
                         $unit_list.bootstrapTable('resetWidth');
                     }
                 });
-            },
-            // bootstrap-table-treetreegrid.js 插件配置
+            }
         });
     });
+    $(function () {
+        $hist_list.bootstrapTable({
+            url: 'tpcdata/history.json',
+            striped: true,
+            pagination: true,
+            idField: 'id',
+            height: 528,
+            toolbar: '#toolbar',
+            columns: [
+                {
+                    field: 'id',
+                    title: '#',
+                    sortable: true
+                },
+                {
+                    field: 'name',
+                    title: 'Name',
+                    sortable: true
+                },
+                {
+                    field: 'address',
+                    title: 'Ref-In.',
+                    sortable: true
+                },
+                {
+                    field: 'date',
+                    title: 'Date',
+                    sortable: true
+                },
+                {
+                    field: 'onoff',
+                    title: 'On/Off'
+                },
+                {
+                    field: 'mode',
+                    title: 'Mode'
+                },
+                {
+                    field: 'temp',
+                    title: 'Temp.',
+                    formatter: 'tempFormatter'
+                },
+                {
+                    field: 'fan',
+                    title: 'Fan'
+                }
+            ]
+        })
+    });
 
+    function tempFormatter(value, row, index) {
+        return (value / 2).toString() + '℃';
+    }
 </script>
 </html>
